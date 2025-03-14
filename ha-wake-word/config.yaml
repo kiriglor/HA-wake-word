@@ -2,7 +2,12 @@ name: "Ha Wake Word"
 version: "1.0"
 slug: "ha_wake_word"
 description: "Wake word detection with openWakeWord"
-arch: ["armhf", "armv7", "aarch64"]  # Matches Raspberry Pi models
+arch: 
+  - armhf
+  - armv7
+  - aarch64
+  - amd64
+  - i386
 homeassistant: "2023.1.0"
 startup: "application"
 boot: "auto"
