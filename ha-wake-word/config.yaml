@@ -7,7 +7,7 @@ startup: "application"
 boot: "auto"
 host_network: true  # Needed for UDP
 options:
-  ha_token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiI2Y2JhMTA3MDJmZWQ0MGZiODI4NjcwYzc1NTY0NDQ4MCIsImlhdCI6MTc0MTk0MTgzMSwiZXhwIjoyMDU3MzAxODMxfQ.kxjltctUJmoPEY1UrUIjsbtz8Q_RhurhkjV9MqIVlQg"  # Replace with your HA token
+  ha_token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJlOWMzNjJmMWY4N2Q0NzczYmY3ZTFlNTJhODIxY2ZjMiIsImlhdCI6MTc0MTk0MzgwOCwiZXhwIjoyMDU3MzAzODA4fQ.5DDX3JyUvr-bIsxtmG8U8pCTCtTmPS9l_jkgbXcOnQc"  # Replace with your HA token
   port: 5000
 schema:
   ha_token: "str"
