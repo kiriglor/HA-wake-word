@@ -1,0 +1,14 @@
+name: "openWakeWord"
+version: "1.0"
+slug: "openwakeword"
+description: "Wake word detection with openWakeWord"
+arch: ["armhf", "armv7", "aarch64"]  # Matches Raspberry Pi models
+startup: "application"
+boot: "auto"
+host_network: true  # Needed for UDP
+options:
+  ha_token: "your_long_lived_access_token"  # Replace with your HA token
+  port: 5000
+schema:
+  ha_token: "str"
+  port: "int"
