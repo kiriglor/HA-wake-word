@@ -1,0 +1,14 @@
+name: "Ha Wake Word"
+version: "1.0"
+slug: "ha_wake_word"
+description: "Wake word detection with openWakeWord"
+arch: ["armhf", "armv7", "aarch64"]  # Matches Raspberry Pi models
+startup: "application"
+boot: "auto"
+host_network: true  # Needed for UDP
+options:
+  ha_token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJlOWMzNjJmMWY4N2Q0NzczYmY3ZTFlNTJhODIxY2ZjMiIsImlhdCI6MTc0MTk0MzgwOCwiZXhwIjoyMDU3MzAzODA4fQ.5DDX3JyUvr-bIsxtmG8U8pCTCtTmPS9l_jkgbXcOnQc"  # Replace with your HA token
+  port: 5000
+schema:
+  ha_token: "str"
+  port: "int"
