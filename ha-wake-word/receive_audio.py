@@ -25,4 +25,3 @@ while True:
         print("Wake word detected!")
         headers = {"Authorization": f"Bearer {HA_TOKEN}", "Content-Type": "application/json"}
         requests.post(f"{HA_URL}/api/services/voice_assistant/start_listening", headers=headers)t.SOCK_DGRAM)
-sock.bind(("", PORT))
